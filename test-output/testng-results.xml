@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23079" started-at="2020-09-10T23:14:01 IST" finished-at="2020-09-10T23:14:24 IST">
+    <groups>
+    </groups>
+    <test name="Verify Login Scenarios." duration-ms="10571" started-at="2020-09-10T23:14:01 IST" finished-at="2020-09-10T23:14:11 IST">
+      <class name="com.clarion.qa.test.LoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.clarion.qa.test.LoginTest@4f063c0a]" name="initialize" is-config="true" duration-ms="7753" started-at="2020-09-10T23:14:01 IST" finished-at="2020-09-10T23:14:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyLoginValidationMessages()[pri:1, instance:com.clarion.qa.test.LoginTest@4f063c0a]" name="verifyLoginValidationMessages" duration-ms="585" started-at="2020-09-10T23:14:09 IST" finished-at="2020-09-10T23:14:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginValidationMessages -->
+        <test-method status="PASS" signature="verifySucessfulLogin()[pri:2, instance:com.clarion.qa.test.LoginTest@4f063c0a]" name="verifySucessfulLogin" duration-ms="1261" started-at="2020-09-10T23:14:09 IST" finished-at="2020-09-10T23:14:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySucessfulLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.clarion.qa.test.LoginTest@4f063c0a]" name="teardown" is-config="true" duration-ms="888" started-at="2020-09-10T23:14:10 IST" finished-at="2020-09-10T23:14:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.clarion.qa.test.LoginTest -->
+    </test> <!-- Verify Login Scenarios. -->
+    <test name="Verify that user is able to add promise and search promise, logout Sucessfully." duration-ms="12466" started-at="2020-09-10T23:14:11 IST" finished-at="2020-09-10T23:14:24 IST">
+      <class name="com.clarion.qa.test.PromiseTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.clarion.qa.test.PromiseTest@2d8f65a4]" name="initialize" is-config="true" duration-ms="7940" started-at="2020-09-10T23:14:11 IST" finished-at="2020-09-10T23:14:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyAddPromise()[pri:3, instance:com.clarion.qa.test.PromiseTest@2d8f65a4]" name="verifyAddPromise" duration-ms="2189" started-at="2020-09-10T23:14:19 IST" finished-at="2020-09-10T23:14:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddPromise -->
+        <test-method status="PASS" signature="verifySucessfullAdditionOfPromise()[pri:4, instance:com.clarion.qa.test.PromiseTest@2d8f65a4]" name="verifySucessfullAdditionOfPromise" duration-ms="1109" started-at="2020-09-10T23:14:21 IST" finished-at="2020-09-10T23:14:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySucessfullAdditionOfPromise -->
+        <test-method status="PASS" signature="verifySucessfulLogout()[pri:5, instance:com.clarion.qa.test.PromiseTest@2d8f65a4]" name="verifySucessfulLogout" duration-ms="377" started-at="2020-09-10T23:14:23 IST" finished-at="2020-09-10T23:14:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySucessfulLogout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.clarion.qa.test.PromiseTest@2d8f65a4]" name="teardown" is-config="true" duration-ms="842" started-at="2020-09-10T23:14:23 IST" finished-at="2020-09-10T23:14:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.clarion.qa.test.PromiseTest -->
+    </test> <!-- Verify that user is able to add promise and search promise, logout Sucessfully. -->
+  </suite> <!-- Suite -->
+</testng-results>
